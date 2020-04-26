@@ -1,0 +1,96 @@
+html, body
+{
+    width: 100%;
+    height : 100%;
+    margin:0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    background: #F1F9FF 0 0 no-repeat padding-box;
+    opacity: 1;
+    flex-direction: row;
+    padding-top: 1%;
+    height: 15%;
+}
+.taille_menu{
+    width:0%;
+}
+
+.titre /* classe */
+{
+    color: #1D2043;
+    font-size: 250%;
+}
+
+.icones
+{
+    margin-right: -9%;
+}
+
+
+/*SEPARATEUR HAUT */
+.trait_fin_menu
+{
+    height: 0.25%;
+    background-color: #2699FB;
+}
+
+
+.bouton_langue{
+    border: 0;
+    padding: 1% 1%;
+    font-size: 100%;
+    text-align: center;
+    color: #fff;
+    border-radius: 8%;
+    background-color: rgba(29, 32, 67, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    text-decoration: none;
+    margin-left:10%;
+}
+
+.bouton_langue:hover
+{
+    background-color:  #F1F9FF/*rgba(255, 0, 0, 1)*/;
+    color: black;
+}
+
+.bouton_langue:active
+{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.bouton_deconnexion{
+    border: 0;
+    padding: 1% 1%;
+    font-size: 100%;
+    text-align: center;
+    color: #fff;
+    border-radius: 8%;
+    background-color: rgba(29, 32, 67, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    text-decoration: none;
+    margin-right:4%;
+}
+
+.bouton_deconnexion:hover
+{
+    background-color:  #F1F9FF/*rgba(255, 0, 0, 1)*/;
+    color: black;
+}
+
+.bouton_deconnexion:active
+{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
