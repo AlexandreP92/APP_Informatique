@@ -11,8 +11,10 @@ footer
     background: #1D2043 0 0 no-repeat padding-box;
     opacity: 1;
     width: 100%;
-    box-shadow: 0 2px 5px 3px #1c1a19;
-    position : absolute;
+    /* box-shadow: 0 2px 5px 3px #1c1a19; MOCHE SINON */
+    bottom: 0px; /* Permet de le coller en bas */
+    position : fixed;
+
 }
 #conteneurUn{
     display: flex;
