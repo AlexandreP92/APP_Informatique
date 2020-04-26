@@ -81,9 +81,14 @@ header
 @media screen and (max-width: 800px){
     .titre
     {
-        font-size: 130%;
+        font-size: 120%;
     }
     .icones{
         display: none;
     }
+    header{
+        display: grid;
+        justify-content: center;
+    }
+
 }
