@@ -4,13 +4,14 @@ html, body
     height : 100%;
     margin:0;
     padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .menu{
     float: left;
     width: 15%;
     height: 100%;
     background: #1D2043 0 0;
-    box-shadow: 0 2px 5px #1c1a19;
+    /* box-shadow: 0 2px 5px #1c1a19; MOCHE SINON */
     position:relative; /* Va permettre d'apparaitre au premier plan */
     /* margin-top: -10%; Je crois qu'elle a mit sa pour pas que ça mange le footer */
 }
