@@ -14,10 +14,8 @@
 
     <!-- Contenu de la Page d'Accueil -->
     <section>
-        <!-- Milieu -->
-        <!-- Bannière -->
-        <div class="banniere_image">
-            <div id="banniere_description">
+        <div class="banniereImage">
+            <div id="banniereDescription">
                 <p>TESTEZ VOS RÉFLEXES AVEC NOS DERNIERS TESTS PSYCHOTECHNIQUES</p>
             </div>
         </div>
