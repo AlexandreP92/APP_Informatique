@@ -79,10 +79,6 @@ header
 }
 /* RESPONSIVE */
 @media screen and (max-width: 800px){
-    .titre
-    {
-        font-size: 120%;
-    }
     .icones{
         display: none;
     }
@@ -90,5 +86,25 @@ header
         display: grid;
         justify-content: center;
     }
-
+    .titre
+    {
+        font-size: 110%;
+    }
+    h1{
+        text-align: center;
+        padding-left: 50%;
+    }
+    .boutonLangue{
+        font-size: 70%;
+        padding: 5px 5px;
+        font-weight: bold;
+        margin-right: -45%;
+    }
+    .boutonDeco{
+        font-size: 70%;
+        padding: 5px 5px;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-right: -45%;
+    }
 }
