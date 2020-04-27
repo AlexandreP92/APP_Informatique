@@ -7,7 +7,7 @@
 </head>
 <body>
     <!-- On ajoute le Header + Menu -->
-    <?php require('Header.html');
+    <?php require('Header.php');
     ?>
     <?php require('Menu.html');
     ?>
