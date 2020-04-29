@@ -43,6 +43,7 @@ input{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1.1em;
 }
 input[type=text], input[type=password]{
     margin-bottom: 4%; /*Si je le met au-dessus ça compte pour le bouton également */
@@ -71,8 +72,40 @@ input[type=submit]:hover {
 }
 #boutonInscription{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .inscription:hover{
     background: #1D2043;
+}
+.mdpOublie{
+    text-decoration: none;
+    color: #1D2043;
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 800px){
+    input{
+        font-size: 0.8em;
+        margin-top: 3%;
+    }
+    label{
+        font-size: 1em;
+    }
+    input[type=text], input[type=password]{
+        margin-bottom: 10%;
+    }
+    input[type=submit] {
+        padding: 10px 25px;
+        font-size: 1em;
+    }
+    .inscription{
+        font-size: 1em;
+    }
+    #boutonInscription{
+        text-align: center;
+        margin-top: 10%;
+    }
+    form{
+        margin-top: 5%;
+        margin-left: 60%;
+    }
 }
