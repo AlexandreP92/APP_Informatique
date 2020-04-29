@@ -20,15 +20,13 @@
         <input type="text" id="fname" name="utilisateur" placeholder="Votre nom d'utilisateur..">
         <label for="fname">MOT DE PASSE</label>
         <input type="password" id="fname" name="mdp" placeholder="*********">
+        <!-- Rajouter le lien pour la réinitialisation du mot de passe -->
+        <a href="#" class="mdpOublie">Mot de passe oublié ? <i>Cliquez ici</i></a>
         <input type="submit" value="VALIDER">
     </form>
     <div id="boutonInscription">
             <a class="inscription" href="P_Inscription.php">NOUVEL UTILISATEUR ? INSCRIS-TOI ! </a>
     </div>
-
-
-
-
 </section>
 </body>
 <!-- On ajoute le Footer -->
