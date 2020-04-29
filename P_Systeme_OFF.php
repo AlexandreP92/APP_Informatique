@@ -16,50 +16,46 @@
 
     <!-- Contenu de la Page Système -->
     <section>
-        <h1>Les Tests :</h1>
+        <p class="titreTest">NOS TESTS</p>
 
         <div id="conteneur">
             <div class="element 1">
-                <p>Stimulus Sonore<br /></p>
-                <img src="../../../images/ear2.jpg" id="ear"  />
+                <p class="titresTest">STIMULUS SONORE</p>
+                <img src="images/test1.png" id="ear"/>
                 <p>Mesure le temps de réaction à <br />
-                    un son inattendu</p><br />
+                    un son inattendu</p>
             </div>
-
             <div class="element 2">
-                <p>Stimulus Visuel<br /></p>
-                <img src="../../../images/eye2.png" id="eye"  />
+                <p class="titresTest">STIMULUS VISUEL</p>
+                <img src="images/test2.png" id="eye"  />
                 <p> Mesure le temps de réaction à <br />
-                    une lumière inattendu</p><br />
+                    une lumière inattendue</p>
             </div>
-
             <div class="element 3">
-                <p>Reconnaissance de tonalité<br /></p>
-                <img src="../../../images/sound2.jpg" id="sound"  />
-                <p> Mesure la capacité de l'utilisateur<br />
-                    à reproduire un son</p><br />
+                <p class="titresTest">RECONNAISSANCE DE TONALITÉ</p>
+                <img src="images/test3.png" id="sound"  />
+                <p class="titresTest"> Mesure la capacité de l'utilisateur<br />
+                    à reproduire un son</p>
             </div>
+        </div>
 
-        </div><br />
-
-        <img src="../../../images/arrow.png" id="arrow"  />
+        <img src="images/arrow.png" id="arrow"  />
 
         <div id="conteneur">
             <div class="element 1">
-                <p>Mesure de la fréquence cardique<br /></p>
-                <img src="../../../images/heart2.png" id="ear"  />
+                <p class="titresTest">MESURE DE LA FRÉQUENCE CARDIAQUE</p>
+                <img src="images/test4.png" id="ear"  />
                 <p>En positionant votre doigt nous mesurons votre  <br />
-                    frequence cardique à l'aide d'un capteur</p><br />
+                    frequence cardique à l'aide d'un capteur</p>
             </div>
-
             <div class="element 2">
-                <p>Mesure de la temperature corporelle<br /></p>
-                <img src="../../../images/thermo2.jpg" id="eye"  />
+                <p class="titresTest">MESURE DE LA TEMPÉRATURE CORPORELLE</p>
+                <img src="images/test5.png" id="eye"  />
                 <p> Nous mesurons à l'aide d'un capteur adéquat, <br />
-                    votre température corporelle</p><br />
+                    votre température corporelle</p>
             </div>
+        </div>
 
-        </div><br />
     </section>
 </body>
     <!-- On ajoute le Footer -->
