@@ -23,18 +23,14 @@ html, body
 #conteneur
 {
     margin-left: 21%;
-    width:79%;
-    height: 50%;
+    background-color: #1D2043;
+    color: white;
     border: 2px #2699FB solid;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-color: #1D2043;
-    color: white;
 }
-
-
 #arrow
 {
     display: block;
@@ -44,4 +40,18 @@ html, body
 #eye,#sound,#ear
 {
     width: 40%;
+}
+@media screen and (max-width: 800px){
+    #conteneur{
+        border : none;
+        flex-direction: column;
+        background: none;
+        color: #1D2043;
+    }
+    #arrow{
+        display: none;
+    }
+    .elementCinq{
+        margin-bottom: 300px; /*Sinon l'élément est caché à cause de la position fixed du footer */
+    }
 }
