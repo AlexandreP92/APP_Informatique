@@ -19,22 +19,22 @@
         <p class="titreTest">NOS TESTS</p>
 
         <div id="conteneur">
-            <div class="element 1">
+            <div class="elementUn">
                 <p class="titresTest">STIMULUS SONORE</p>
                 <img src="images/test1.png" id="ear"/>
                 <p>Mesure le temps de réaction à <br />
                     un son inattendu</p>
             </div>
-            <div class="element 2">
+            <div class="elementDeux">
                 <p class="titresTest">STIMULUS VISUEL</p>
                 <img src="images/test2.png" id="eye"  />
                 <p> Mesure le temps de réaction à <br />
                     une lumière inattendue</p>
             </div>
-            <div class="element 3">
+            <div class="elementTrois">
                 <p class="titresTest">RECONNAISSANCE DE TONALITÉ</p>
                 <img src="images/test3.png" id="sound"  />
-                <p class="titresTest"> Mesure la capacité de l'utilisateur<br />
+                <p> Mesure la capacité de l'utilisateur<br />
                     à reproduire un son</p>
             </div>
         </div>
@@ -42,13 +42,13 @@
         <img src="images/arrow.png" id="arrow"  />
 
         <div id="conteneur">
-            <div class="element 1">
+            <div class="elementQuatre">
                 <p class="titresTest">MESURE DE LA FRÉQUENCE CARDIAQUE</p>
                 <img src="images/test4.png" id="ear"  />
                 <p>En positionant votre doigt nous mesurons votre  <br />
                     frequence cardique à l'aide d'un capteur</p>
             </div>
-            <div class="element 2">
+            <div class="elementCinq">
                 <p class="titresTest">MESURE DE LA TEMPÉRATURE CORPORELLE</p>
                 <img src="images/test5.png" id="eye"  />
                 <p> Nous mesurons à l'aide d'un capteur adéquat, <br />
